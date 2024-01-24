@@ -1,2 +1,2 @@
 # ATM
- ATM course project
+Proyecto para laboratorio práctico de LMS para cajero automatico multimoneda 

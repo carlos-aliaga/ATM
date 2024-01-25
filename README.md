@@ -18,7 +18,7 @@ Microservicios desarrollados en Java con Spring Boot.
 
 Utilizado para almacenar datos transaccionales, financieros y de clientes.
 
-**Event-Driven Architecture: Kafka**
+**Event-Driven Architecture: AWS SQS**
 
 Como sistema de mensajería para implementar una arquitectura basada en eventos.
 
@@ -32,10 +32,6 @@ La aplicación está contenerizada para facilitar la implementación y la escala
 
 #### Configuración de Bases de Datos
 - Instale y configure MySQL según necesidades.
-
-#### Configuración de Kafka
-- Clúster de Kafka disponible. 
-- Configurar las propiedades de conexión en los microservicios que interactúan con Kafka.
 
 #### Contenerización con Docker
 - Utilice los archivos de configuración proporcionados para construir imágenes Docker de los microservicios y la interfaz de usuario.

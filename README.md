@@ -1,6 +1,8 @@
 ### Descripción del Proyecto
 
-Prototipo de cajero automático (ATM) implementado mediante dos microservicios en Java con Spring Boot. Los microservicios se encargan de la gestión de clientes y la gestión de transacciones monetarias. Se utiliza MySQL como bases de datos, Kafka para la gestión de eventos y Docker para la contenerización de la aplicación.
+Cajero automático (ATM) implementado mediante microservicios en Java con Spring Boot.
+Los microservicios se encargan de la gestión de clientes y gestión de transacciones monetarias. 
+Se utiliza MySQL como bases de datos, Kafka para la gestión de eventos y Docker para la contenerización de la aplicación.
 
 Tecnologías Utilizadas Microservicios: Desarrollados en Java con Spring Boot.
 

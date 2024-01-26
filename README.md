@@ -4,7 +4,7 @@ Cajero automático (ATM) implementado mediante microservicios en Java con Spring
 
 Los microservicios se encargan de la gestión de clientes y gestión de transacciones monetarias. 
 
-Se utiliza MySQL como bases de datos, Kafka para la gestión de eventos y Docker para la contenerización de la aplicación.
+Se utiliza Postgress como bases de datos, AWS Event bridge para la gestión de eventos y Docker para la contenerización de la aplicación.
 
 **Tecnologías Utilizadas** 
 Microservicios desarrollados en Java con Spring Boot.
@@ -14,7 +14,7 @@ Microservicios desarrollados en Java con Spring Boot.
 - Gestión Tipo de cambio: Microservicio responsable de almacenar y actualizar tipos de cambios.
 - Gestión de clientes: Microservicio encargado de la gestión de clientes.
 
-**Bases de Datos MySQL**
+**Bases de Datos Postgress**
 
 Utilizado para almacenar datos transaccionales, financieros y de clientes.
 
@@ -31,7 +31,7 @@ La aplicación está contenerizada para facilitar la implementación y la escala
 - Configurar propiedades de conexión a base de datos en los archivos de configuración de cada microservicio.
 
 #### Configuración de Bases de Datos
-- Instale y configure MySQL según necesidades.
+- Instale y configure Postgres según necesidades.
 
 #### Contenerización con Docker
 - Utilice los archivos de configuración proporcionados para construir imágenes Docker de los microservicios y la interfaz de usuario.

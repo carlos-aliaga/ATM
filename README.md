@@ -7,7 +7,7 @@ Los microservicios se encargan de la gestión de clientes y gestión de transacc
 Se utiliza Postgress como bases de datos, AWS Event bridge para la gestión de eventos y Docker para la contenerización de la aplicación.
 
 **Tecnologías Utilizadas** 
-Microservicios desarrollados en Java con Spring Boot.
+Microservicios desarrollados en Java 17 con Spring Boot.
 
 - Gestión Transacciones: Microservicio responsable de las transacciones monetarias.
 - Gestión Cuentas: Microservicio responsable de la gestión de las cuentas de clientes
@@ -16,7 +16,7 @@ Microservicios desarrollados en Java con Spring Boot.
 
 **Bases de Datos Postgress**
 
-Utilizado para almacenar datos transaccionales, financieros y de clientes.
+Utilizado para almacenar datos transaccionales, financieros y de clientes. Version 16
 
 **Event-Driven Architecture: AWS SQS**
 
